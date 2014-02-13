@@ -20,6 +20,8 @@
 		B75CEC5118AD589900AECB8F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B75CEC2A18AD589800AECB8F /* Cocoa.framework */; };
 		B75CEC5918AD589900AECB8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B75CEC5718AD589900AECB8F /* InfoPlist.strings */; };
 		B75CEC5B18AD589900AECB8F /* AutoloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CEC5A18AD589900AECB8F /* AutoloadTests.m */; };
+		B75CEC6618AD5A1700AECB8F /* ELIZDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CEC6518AD5A1700AECB8F /* ELIZDocumentController.m */; };
+		B75CEC6918AD615F00AECB8F /* ELIZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CEC6818AD615F00AECB8F /* ELIZAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		B75CEC5618AD589900AECB8F /* AutoloadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoloadTests-Info.plist"; sourceTree = "<group>"; };
 		B75CEC5818AD589900AECB8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B75CEC5A18AD589900AECB8F /* AutoloadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoloadTests.m; sourceTree = "<group>"; };
+		B75CEC6418AD5A1700AECB8F /* ELIZDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELIZDocumentController.h; sourceTree = "<group>"; };
+		B75CEC6518AD5A1700AECB8F /* ELIZDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELIZDocumentController.m; sourceTree = "<group>"; };
+		B75CEC6718AD615F00AECB8F /* ELIZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELIZAppDelegate.h; sourceTree = "<group>"; };
+		B75CEC6818AD615F00AECB8F /* ELIZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELIZAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 		B75CEC3018AD589800AECB8F /* Autoload */ = {
 			isa = PBXGroup;
 			children = (
+				B75CEC6718AD615F00AECB8F /* ELIZAppDelegate.h */,
+				B75CEC6818AD615F00AECB8F /* ELIZAppDelegate.m */,
+				B75CEC6418AD5A1700AECB8F /* ELIZDocumentController.h */,
+				B75CEC6518AD5A1700AECB8F /* ELIZDocumentController.m */,
 				B75CEC3C18AD589900AECB8F /* ELIZDocument.h */,
 				B75CEC3D18AD589900AECB8F /* ELIZDocument.m */,
 				B75CEC3F18AD589900AECB8F /* ELIZDocument.xib */,
@@ -261,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B75CEC3E18AD589900AECB8F /* ELIZDocument.m in Sources */,
+				B75CEC6918AD615F00AECB8F /* ELIZAppDelegate.m in Sources */,
 				B75CEC4718AD589900AECB8F /* ELIZDocument.xcdatamodeld in Sources */,
+				B75CEC6618AD5A1700AECB8F /* ELIZDocumentController.m in Sources */,
 				B75CEC3718AD589900AECB8F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
