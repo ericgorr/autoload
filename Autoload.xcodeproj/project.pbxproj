@@ -22,6 +22,8 @@
 		B75CEC5B18AD589900AECB8F /* AutoloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CEC5A18AD589900AECB8F /* AutoloadTests.m */; };
 		B75CEC6618AD5A1700AECB8F /* ELIZDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CEC6518AD5A1700AECB8F /* ELIZDocumentController.m */; };
 		B75CEC6918AD615F00AECB8F /* ELIZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B75CEC6818AD615F00AECB8F /* ELIZAppDelegate.m */; };
+		B77A296418C4C3950095FBA0 /* ELIZWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B77A296318C4C3950095FBA0 /* ELIZWindow.m */; };
+		B77A296718C4C54D0095FBA0 /* ELIZApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = B77A296618C4C54D0095FBA0 /* ELIZApplication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		B75CEC6518AD5A1700AECB8F /* ELIZDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELIZDocumentController.m; sourceTree = "<group>"; };
 		B75CEC6718AD615F00AECB8F /* ELIZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELIZAppDelegate.h; sourceTree = "<group>"; };
 		B75CEC6818AD615F00AECB8F /* ELIZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELIZAppDelegate.m; sourceTree = "<group>"; };
+		B77A296218C4C3950095FBA0 /* ELIZWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELIZWindow.h; sourceTree = "<group>"; };
+		B77A296318C4C3950095FBA0 /* ELIZWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELIZWindow.m; sourceTree = "<group>"; };
+		B77A296518C4C54D0095FBA0 /* ELIZApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELIZApplication.h; sourceTree = "<group>"; };
+		B77A296618C4C54D0095FBA0 /* ELIZApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELIZApplication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,11 +131,15 @@
 		B75CEC3018AD589800AECB8F /* Autoload */ = {
 			isa = PBXGroup;
 			children = (
+				B77A296518C4C54D0095FBA0 /* ELIZApplication.h */,
+				B77A296618C4C54D0095FBA0 /* ELIZApplication.m */,
 				B75CEC6718AD615F00AECB8F /* ELIZAppDelegate.h */,
 				B75CEC6818AD615F00AECB8F /* ELIZAppDelegate.m */,
 				B75CEC6418AD5A1700AECB8F /* ELIZDocumentController.h */,
 				B75CEC6518AD5A1700AECB8F /* ELIZDocumentController.m */,
 				B75CEC3C18AD589900AECB8F /* ELIZDocument.h */,
+				B77A296218C4C3950095FBA0 /* ELIZWindow.h */,
+				B77A296318C4C3950095FBA0 /* ELIZWindow.m */,
 				B75CEC3D18AD589900AECB8F /* ELIZDocument.m */,
 				B75CEC3F18AD589900AECB8F /* ELIZDocument.xib */,
 				B75CEC4218AD589900AECB8F /* MainMenu.xib */,
@@ -271,10 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B75CEC3E18AD589900AECB8F /* ELIZDocument.m in Sources */,
+				B77A296718C4C54D0095FBA0 /* ELIZApplication.m in Sources */,
 				B75CEC6918AD615F00AECB8F /* ELIZAppDelegate.m in Sources */,
 				B75CEC4718AD589900AECB8F /* ELIZDocument.xcdatamodeld in Sources */,
 				B75CEC6618AD5A1700AECB8F /* ELIZDocumentController.m in Sources */,
 				B75CEC3718AD589900AECB8F /* main.m in Sources */,
+				B77A296418C4C3950095FBA0 /* ELIZWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +507,7 @@
 				B75CEC6018AD589900AECB8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B75CEC6118AD589900AECB8F /* Build configuration list for PBXNativeTarget "AutoloadTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +516,7 @@
 				B75CEC6318AD589900AECB8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

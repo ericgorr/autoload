@@ -29,3 +29,16 @@
 }
 
 @end
+
+
+//- (BOOL) restoreWindowWithIdentifier:(NSString *)identifier
+//state:(NSCoder *)state
+//completionHandler:(void (^)(NSWindow *, NSError *))completionHandler
+//{
+//	BOOL success;
+//	
+//	NSLog(@"%s", __func__);
+//	
+//	success = [super  restoreWindowWithIdentifier]
+//	
+//	}
